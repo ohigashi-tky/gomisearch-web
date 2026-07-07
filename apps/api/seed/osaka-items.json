@@ -1,0 +1,410 @@
+{
+  "municipality": {
+    "name": "大阪市",
+    "prefecture": "大阪府",
+    "bulkyWasteApplyUrl": "https://sodai.osaka-kankyojigyo.or.jp/",
+    "sourceUrl": "https://www.city.osaka.lg.jp/kankyo/page/0000369973.html"
+  },
+  "items": [
+    {
+      "name": "靴",
+      "category": "普通ごみ",
+      "fee": 0,
+      "instructions": "普通ごみの収集日に中身の見えるごみ袋に入れて出してください。",
+      "applyUrl": null,
+      "aliases": ["くつ", "スニーカー", "ブーツ", "革靴", "サンダル"]
+    },
+    {
+      "name": "傘",
+      "category": "普通ごみ",
+      "fee": 0,
+      "instructions": "普通ごみへ。ごみ袋から突き出る場合は「ごみ」と表示して出してください。",
+      "applyUrl": null,
+      "aliases": ["かさ", "ビニール傘", "日傘", "折りたたみ傘"]
+    },
+    {
+      "name": "ぬいぐるみ",
+      "category": "普通ごみ",
+      "fee": 0,
+      "instructions": "普通ごみの収集日に中身の見えるごみ袋に入れて出してください。30cmを超える大きなものは粗大ごみです。",
+      "applyUrl": null,
+      "aliases": ["人形", "にんぎょう", "クマのぬいぐるみ"]
+    },
+    {
+      "name": "乾電池",
+      "category": "普通ごみ",
+      "fee": 0,
+      "instructions": "普通ごみとして出せますが、できるだけ区役所などの回収拠点をご利用ください。他のごみと分けて透明袋に入れて出してください。",
+      "applyUrl": null,
+      "aliases": ["かんでんち", "電池", "単三電池", "アルカリ電池"]
+    },
+    {
+      "name": "蛍光灯",
+      "category": "普通ごみ",
+      "fee": 0,
+      "instructions": "紙などに包んで「キケン」と表示し、普通ごみへ。できるだけ購入店などの回収をご利用ください。",
+      "applyUrl": null,
+      "aliases": ["けいこうとう", "蛍光管", "丸型蛍光灯", "電球"]
+    },
+    {
+      "name": "CD",
+      "category": "普通ごみ",
+      "fee": 0,
+      "instructions": "ケースごと普通ごみへ出してください。",
+      "applyUrl": null,
+      "aliases": ["シーディー", "DVD", "ブルーレイ", "ディスク"]
+    },
+    {
+      "name": "ビデオテープ",
+      "category": "普通ごみ",
+      "fee": 0,
+      "instructions": "普通ごみの収集日に中身の見えるごみ袋に入れて出してください。",
+      "applyUrl": null,
+      "aliases": ["ビデオ", "VHS", "カセットテープ"]
+    },
+    {
+      "name": "ライター",
+      "category": "普通ごみ",
+      "fee": 0,
+      "instructions": "必ず中身のガスを使い切ってから普通ごみへ出してください。",
+      "applyUrl": null,
+      "aliases": ["らいたー", "使い捨てライター", "100円ライター"]
+    },
+    {
+      "name": "包丁",
+      "category": "普通ごみ",
+      "fee": 0,
+      "instructions": "刃先を紙などで包み「キケン」と表示して普通ごみへ出してください。",
+      "applyUrl": null,
+      "aliases": ["ほうちょう", "ナイフ", "刃物"]
+    },
+    {
+      "name": "鏡",
+      "category": "普通ごみ",
+      "fee": 0,
+      "instructions": "割れないよう紙などに包み「キケン」と表示して普通ごみへ。最大の辺が30cmを超えるものは粗大ごみです。",
+      "applyUrl": null,
+      "aliases": ["かがみ", "手鏡", "ミラー"]
+    },
+    {
+      "name": "食器",
+      "category": "普通ごみ",
+      "fee": 0,
+      "instructions": "陶器やガラスの食器は普通ごみへ。割れたものは紙に包み「キケン」と表示して出してください。",
+      "applyUrl": null,
+      "aliases": ["しょっき", "茶碗", "皿", "コップ", "陶器"]
+    },
+    {
+      "name": "紙おむつ",
+      "category": "普通ごみ",
+      "fee": 0,
+      "instructions": "汚物を取り除いてから普通ごみへ出してください。",
+      "applyUrl": null,
+      "aliases": ["かみおむつ", "おむつ", "オムツ"]
+    },
+    {
+      "name": "フライパン",
+      "category": "普通ごみ",
+      "fee": 0,
+      "instructions": "最大の辺が30cm以下のものは普通ごみへ。30cmを超えるものは粗大ごみです。",
+      "applyUrl": null,
+      "aliases": ["ふらいぱん", "スキレット", "中華鍋"]
+    },
+    {
+      "name": "鍋",
+      "category": "普通ごみ",
+      "fee": 0,
+      "instructions": "最大の辺が30cm以下のものは普通ごみへ。30cmを超えるものは粗大ごみです。",
+      "applyUrl": null,
+      "aliases": ["なべ", "片手鍋", "両手鍋", "圧力鍋", "やかん"]
+    },
+    {
+      "name": "おもちゃ",
+      "category": "普通ごみ",
+      "fee": 0,
+      "instructions": "電池を取り外してから普通ごみへ。最大の辺が30cmを超えるものは粗大ごみです。",
+      "applyUrl": null,
+      "aliases": ["オモチャ", "玩具", "プラモデル", "ミニカー"]
+    },
+    {
+      "name": "かばん",
+      "category": "普通ごみ",
+      "fee": 0,
+      "instructions": "普通ごみの収集日に中身の見えるごみ袋に入れて出してください。",
+      "applyUrl": null,
+      "aliases": ["カバン", "鞄", "バッグ", "リュック", "ハンドバッグ"]
+    },
+    {
+      "name": "自転車",
+      "category": "粗大ごみ",
+      "fee": 400,
+      "instructions": "粗大ごみ (事前申込制)。粗大ごみ処理手数料券400円を貼り、収集日に指定場所へ出してください。",
+      "applyUrl": "https://sodai.osaka-kankyojigyo.or.jp/",
+      "aliases": ["じてんしゃ", "チャリ", "ママチャリ", "チャリンコ", "サイクル"]
+    },
+    {
+      "name": "電子レンジ",
+      "category": "粗大ごみ",
+      "fee": 400,
+      "instructions": "粗大ごみ (事前申込制)。粗大ごみ処理手数料券400円を貼り、収集日に指定場所へ出してください。",
+      "applyUrl": "https://sodai.osaka-kankyojigyo.or.jp/",
+      "aliases": ["でんしれんじ", "レンジ", "オーブンレンジ"]
+    },
+    {
+      "name": "布団",
+      "category": "粗大ごみ",
+      "fee": null,
+      "instructions": "粗大ごみ (事前申込制)。手数料は申込時に案内されるため要確認。折りたたんでひもで束ねて出してください。",
+      "applyUrl": "https://sodai.osaka-kankyojigyo.or.jp/",
+      "aliases": ["ふとん", "掛け布団", "敷布団", "毛布"]
+    },
+    {
+      "name": "ソファー",
+      "category": "粗大ごみ",
+      "fee": null,
+      "instructions": "粗大ごみ (事前申込制)。手数料は大きさにより異なるため要確認 (目安: 1人掛け700円、2人掛け以上1,000円)。",
+      "applyUrl": "https://sodai.osaka-kankyojigyo.or.jp/",
+      "aliases": ["そふぁー", "ソファ", "カウチ", "長椅子"]
+    },
+    {
+      "name": "テーブル",
+      "category": "粗大ごみ",
+      "fee": null,
+      "instructions": "粗大ごみ (事前申込制)。手数料は大きさにより異なるため要確認。",
+      "applyUrl": "https://sodai.osaka-kankyojigyo.or.jp/",
+      "aliases": ["てーぶる", "机", "つくえ", "ダイニングテーブル", "ローテーブル"]
+    },
+    {
+      "name": "椅子",
+      "category": "粗大ごみ",
+      "fee": null,
+      "instructions": "粗大ごみ (事前申込制)。手数料は種類・大きさにより異なるため要確認。最大の辺が30cm以下のものは普通ごみです。",
+      "applyUrl": "https://sodai.osaka-kankyojigyo.or.jp/",
+      "aliases": ["いす", "イス", "チェア", "座椅子"]
+    },
+    {
+      "name": "タンス",
+      "category": "粗大ごみ",
+      "fee": null,
+      "instructions": "粗大ごみ (事前申込制)。手数料は大きさにより異なるため要確認。中身を空にして出してください。",
+      "applyUrl": "https://sodai.osaka-kankyojigyo.or.jp/",
+      "aliases": ["たんす", "箪笥", "チェスト", "衣装棚"]
+    },
+    {
+      "name": "ベッド",
+      "category": "粗大ごみ",
+      "fee": null,
+      "instructions": "粗大ごみ (事前申込制)。手数料は種類・大きさにより異なるため要確認。マットレスは別品目として申し込んでください。",
+      "applyUrl": "https://sodai.osaka-kankyojigyo.or.jp/",
+      "aliases": ["べっど", "シングルベッド", "パイプベッド", "二段ベッド"]
+    },
+    {
+      "name": "マットレス",
+      "category": "粗大ごみ",
+      "fee": null,
+      "instructions": "粗大ごみ (事前申込制)。手数料は種類 (スプリング有無など) により異なるため要確認。",
+      "applyUrl": "https://sodai.osaka-kankyojigyo.or.jp/",
+      "aliases": ["まっとれす", "スプリングマットレス", "敷きマット"]
+    },
+    {
+      "name": "カーペット",
+      "category": "粗大ごみ",
+      "fee": null,
+      "instructions": "粗大ごみ (事前申込制)。手数料は大きさにより異なるため要確認。丸めてひもで縛って出してください。",
+      "applyUrl": "https://sodai.osaka-kankyojigyo.or.jp/",
+      "aliases": ["かーぺっと", "じゅうたん", "絨毯", "ラグ"]
+    },
+    {
+      "name": "掃除機",
+      "category": "粗大ごみ",
+      "fee": null,
+      "instructions": "粗大ごみ (事前申込制)。手数料は申込時に案内されるため要確認。",
+      "applyUrl": "https://sodai.osaka-kankyojigyo.or.jp/",
+      "aliases": ["そうじき", "クリーナー", "コードレス掃除機"]
+    },
+    {
+      "name": "ストーブ",
+      "category": "粗大ごみ",
+      "fee": null,
+      "instructions": "粗大ごみ (事前申込制)。灯油と電池は必ず抜いてください。手数料は申込時に案内されるため要確認。",
+      "applyUrl": "https://sodai.osaka-kankyojigyo.or.jp/",
+      "aliases": ["すとーぶ", "石油ストーブ", "ファンヒーター", "電気ストーブ"]
+    },
+    {
+      "name": "扇風機",
+      "category": "粗大ごみ",
+      "fee": null,
+      "instructions": "粗大ごみ (事前申込制)。手数料は申込時に案内されるため要確認。",
+      "applyUrl": "https://sodai.osaka-kankyojigyo.or.jp/",
+      "aliases": ["せんぷうき", "サーキュレーター"]
+    },
+    {
+      "name": "ガスコンロ",
+      "category": "粗大ごみ",
+      "fee": null,
+      "instructions": "粗大ごみ (事前申込制)。手数料は申込時に案内されるため要確認。電池は抜いて出してください。",
+      "applyUrl": "https://sodai.osaka-kankyojigyo.or.jp/",
+      "aliases": ["がすこんろ", "ガステーブル", "コンロ"]
+    },
+    {
+      "name": "スーツケース",
+      "category": "粗大ごみ",
+      "fee": null,
+      "instructions": "粗大ごみ (事前申込制)。手数料は申込時に案内されるため要確認。",
+      "applyUrl": "https://sodai.osaka-kankyojigyo.or.jp/",
+      "aliases": ["すーつけーす", "キャリーケース", "キャリーバッグ", "旅行かばん"]
+    },
+    {
+      "name": "空き缶",
+      "category": "資源",
+      "fee": 0,
+      "instructions": "中を軽くすすいで資源ごみの収集日に出してください。",
+      "applyUrl": null,
+      "aliases": ["あきかん", "缶", "アルミ缶", "スチール缶"]
+    },
+    {
+      "name": "空きびん",
+      "category": "資源",
+      "fee": 0,
+      "instructions": "ふたを外し、中を軽くすすいで資源ごみの収集日に出してください。",
+      "applyUrl": null,
+      "aliases": ["あきびん", "瓶", "ビン", "ガラスびん"]
+    },
+    {
+      "name": "ペットボトル",
+      "category": "資源",
+      "fee": 0,
+      "instructions": "キャップとラベルを外して容器包装プラスチックへ。本体は軽くすすぎ、つぶして資源ごみへ出してください。",
+      "applyUrl": null,
+      "aliases": ["ぺっとぼとる", "PETボトル"]
+    },
+    {
+      "name": "スプレー缶",
+      "category": "資源",
+      "fee": 0,
+      "instructions": "必ず中身を使い切り、穴を開けずに資源ごみの収集日に出してください。",
+      "applyUrl": null,
+      "aliases": ["すぷれーかん", "エアゾール缶", "カセットボンベ", "ガス缶"]
+    },
+    {
+      "name": "食品トレイ",
+      "category": "容器包装プラスチック",
+      "fee": 0,
+      "instructions": "軽くすすいで容器包装プラスチックの収集日に出してください。",
+      "applyUrl": null,
+      "aliases": ["しょくひんとれい", "トレー", "発泡トレイ"]
+    },
+    {
+      "name": "レジ袋",
+      "category": "容器包装プラスチック",
+      "fee": 0,
+      "instructions": "容器包装プラスチックの収集日に出してください。",
+      "applyUrl": null,
+      "aliases": ["れじぶくろ", "ポリ袋", "ビニール袋"]
+    },
+    {
+      "name": "シャンプーボトル",
+      "category": "容器包装プラスチック",
+      "fee": 0,
+      "instructions": "中身を使い切り、軽くすすいで容器包装プラスチックの収集日に出してください。",
+      "applyUrl": null,
+      "aliases": ["しゃんぷーぼとる", "シャンプー容器", "詰め替えパック"]
+    },
+    {
+      "name": "発泡スチロール",
+      "category": "容器包装プラスチック",
+      "fee": 0,
+      "instructions": "商品の容器・包装だったものが対象です。容器包装プラスチックの収集日に出してください。",
+      "applyUrl": null,
+      "aliases": ["はっぽうすちろーる", "スチロール", "緩衝材"]
+    },
+    {
+      "name": "卵パック",
+      "category": "容器包装プラスチック",
+      "fee": 0,
+      "instructions": "容器包装プラスチックの収集日に出してください。",
+      "applyUrl": null,
+      "aliases": ["たまごぱっく", "たまごケース", "透明パック"]
+    },
+    {
+      "name": "新聞",
+      "category": "古紙・衣類",
+      "fee": 0,
+      "instructions": "ひもで十字に束ねて古紙・衣類の収集日に出してください。",
+      "applyUrl": null,
+      "aliases": ["しんぶん", "新聞紙", "チラシ"]
+    },
+    {
+      "name": "段ボール",
+      "category": "古紙・衣類",
+      "fee": 0,
+      "instructions": "折りたたんでひもで束ね、古紙・衣類の収集日に出してください。",
+      "applyUrl": null,
+      "aliases": ["だんぼーる", "ダンボール", "カートン"]
+    },
+    {
+      "name": "本",
+      "category": "古紙・衣類",
+      "fee": 0,
+      "instructions": "ひもで十字に束ねて古紙・衣類の収集日に出してください。",
+      "applyUrl": null,
+      "aliases": ["ほん", "書籍", "雑誌", "漫画", "単行本"]
+    },
+    {
+      "name": "衣類",
+      "category": "古紙・衣類",
+      "fee": 0,
+      "instructions": "洗濯してから透明袋に入れるか、ひもで束ねて古紙・衣類の収集日に出してください。雨の日は出さないでください。",
+      "applyUrl": null,
+      "aliases": ["いるい", "服", "洋服", "Tシャツ", "セーター"]
+    },
+    {
+      "name": "紙パック",
+      "category": "古紙・衣類",
+      "fee": 0,
+      "instructions": "すすいで切り開き、乾かしてから古紙・衣類の収集日に出してください。",
+      "applyUrl": null,
+      "aliases": ["かみぱっく", "牛乳パック", "ジュースパック"]
+    },
+    {
+      "name": "テレビ",
+      "category": "収集不可",
+      "fee": null,
+      "instructions": "家電リサイクル法対象のため市では収集できません。購入店・買替店に引き取りを依頼するか、郵便局でリサイクル料金 (要確認) を支払って指定引取場所へ持ち込んでください。",
+      "applyUrl": null,
+      "aliases": ["てれび", "液晶テレビ", "ブラウン管テレビ"]
+    },
+    {
+      "name": "冷蔵庫",
+      "category": "収集不可",
+      "fee": null,
+      "instructions": "家電リサイクル法対象のため市では収集できません。購入店・買替店に引き取りを依頼するか、郵便局でリサイクル料金 (要確認) を支払って指定引取場所へ持ち込んでください。",
+      "applyUrl": null,
+      "aliases": ["れいぞうこ", "冷凍庫", "フリーザー"]
+    },
+    {
+      "name": "洗濯機",
+      "category": "収集不可",
+      "fee": null,
+      "instructions": "家電リサイクル法対象のため市では収集できません。購入店・買替店に引き取りを依頼するか、郵便局でリサイクル料金 (要確認) を支払って指定引取場所へ持ち込んでください。",
+      "applyUrl": null,
+      "aliases": ["せんたくき", "せんたっき", "ドラム式洗濯機", "衣類乾燥機"]
+    },
+    {
+      "name": "エアコン",
+      "category": "収集不可",
+      "fee": null,
+      "instructions": "家電リサイクル法対象のため市では収集できません。購入店・買替店に引き取りを依頼するか、郵便局でリサイクル料金 (要確認) を支払って指定引取場所へ持ち込んでください。",
+      "applyUrl": null,
+      "aliases": ["えあこん", "クーラー", "室外機"]
+    },
+    {
+      "name": "パソコン",
+      "category": "収集不可",
+      "fee": null,
+      "instructions": "資源有効利用促進法によりメーカー回収となるため市では収集できません。メーカーまたは認定事業者の宅配便回収、小型家電回収ボックスをご利用ください (料金は要確認)。",
+      "applyUrl": null,
+      "aliases": ["ぱそこん", "PC", "ノートパソコン", "デスクトップ"]
+    }
+  ]
+}

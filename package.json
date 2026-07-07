@@ -1,0 +1,21 @@
+{
+  "name": "gomisearch",
+  "private": true,
+  "version": "0.1.0",
+  "description": "品目名で検索すると自治体ごとのゴミの捨て方が即答されるサービス (モノレポ)",
+  "scripts": {
+    "dev": "pnpm --filter @gomisearch/api dev",
+    "dev:web": "pnpm --filter @gomisearch/web dev",
+    "build": "pnpm --filter @gomisearch/web build",
+    "test": "pnpm -r test",
+    "deploy": "pnpm --filter @gomisearch/web build && pnpm --filter @gomisearch/api deploy",
+    "seed:generate": "pnpm --filter @gomisearch/api seed:generate"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": ["esbuild", "workerd", "sharp"]
+  },
+  "packageManager": "pnpm@10.33.0"
+}

@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@theme {
+  /* アクセントカラー (iOS 版 AccentColor と同じ深緑) */
+  --color-accent: #2e7d5b;
+}
+
+@layer base {
+  html {
+    color-scheme: light dark;
+  }
+  body {
+    @apply bg-white text-neutral-950 dark:bg-neutral-950 dark:text-neutral-50;
+  }
+}

@@ -1,0 +1,18 @@
+# gomisearch API (Cloudflare Workers + D1)
+name = "gomisearch-api"
+main = "src/index.ts"
+compatibility_date = "2025-05-01"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "gomisearch-db"
+# `wrangler d1 create gomisearch-db` の出力で置き換える (ローカル開発はこのままで可)
+database_id = "00000000-0000-0000-0000-000000000000"
+migrations_dir = "migrations"
+
+# Web 版 (apps/web) のビルド成果物を Workers Static Assets として同一オリジンで配信する。
+# デプロイ前に `pnpm --filter @gomisearch/web build` で ../web/dist を生成しておくこと。
+[assets]
+directory = "../web/dist"
+not_found_handling = "single-page-application"
+run_worker_first = ["/api/*"]
