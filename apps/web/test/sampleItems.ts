@@ -6,7 +6,7 @@ export const osaka: Municipality = {
   name: "大阪市",
   prefecture: "大阪府",
   bulkyWasteApplyUrl: "https://sodai.osaka-kankyojigyo.or.jp/",
-  sourceUrl: "https://www.city.osaka.lg.jp/kankyo/page/0000369973.html",
+  sourceUrl: "https://www.city.osaka.lg.jp/kankyo/page/0000201907.html",
 };
 
 export const sampleItems: WasteItem[] = [

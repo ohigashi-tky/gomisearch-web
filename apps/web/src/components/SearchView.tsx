@@ -23,6 +23,16 @@ interface Props {
   onChangeMunicipality: (municipality: Municipality) => void;
 }
 
+function municipalityEquals(a: Municipality, b: Municipality): boolean {
+  return (
+    a.id === b.id &&
+    a.name === b.name &&
+    a.prefecture === b.prefecture &&
+    a.bulkyWasteApplyUrl === b.bulkyWasteApplyUrl &&
+    a.sourceUrl === b.sourceUrl
+  );
+}
+
 /**
  * ホーム (検索) 画面。起動時に品目キャッシュを読み込み (ETag 差分チェック付き)、
  * 以降の検索はローカルキャッシュに対して行う (オフラインでも検索可能)。
@@ -46,12 +56,22 @@ export function SearchView({ municipality, onChangeMunicipality }: Props) {
   // インクリメンタル検索 (debounce 200ms)
   const debouncedQuery = useDebouncedValue(query, 200);
 
+  // load を作り直さずに最新の props を参照するための ref
+  const propsRef = useRef({ municipality, onChangeMunicipality });
+  propsRef.current = { municipality, onChangeMunicipality };
+
   /** 品目キャッシュの読み込み (起動時 / 再試行時) */
   const load = useCallback(async () => {
     setLoadState({ kind: "loading" });
     try {
       const response = await syncService.loadItems(municipality.id);
       engineRef.current = new LocalSearchEngine(response.items);
+      // サーバ側で自治体情報 (出典URL 等) が更新されていたら、
+      // localStorage の保存済み選択にも反映する (キャッシュ置き換えと同じ扱い)
+      const { municipality: current, onChangeMunicipality: refresh } = propsRef.current;
+      if (!municipalityEquals(response.municipality, current)) {
+        refresh(response.municipality);
+      }
       setLoadState(engineRef.current.isEmpty ? { kind: "unsupported" } : { kind: "ready" });
     } catch (error) {
       setLoadState({ kind: "failed", message: describeError(error) });
