@@ -1,7 +1,7 @@
 -- Migration number: 0002 	 seed: 大阪市 50品目
--- このファイルは scripts/generate-seed.ts により seed/osaka-items.json から生成される。直接編集しないこと。
+-- このファイルは scripts/generate-seed.ts により seed/*.json から生成される。直接編集しないこと。
 
-INSERT INTO municipalities (name, prefecture, bulky_waste_apply_url, source_url) VALUES ('大阪市', '大阪府', 'https://sodai.osaka-kankyojigyo.or.jp/', 'https://www.city.osaka.lg.jp/kankyo/page/0000369973.html');
+INSERT INTO municipalities (name, prefecture, bulky_waste_apply_url, source_url) VALUES ('大阪市', '大阪府', 'https://sodai.osaka-kankyojigyo.or.jp/', 'https://www.city.osaka.lg.jp/kankyo/page/0000201907.html');
 
 INSERT INTO waste_items (municipality_id, name, name_normalized, category, fee, instructions, apply_url)
   SELECT id, '靴', '靴', '普通ごみ', 0, '普通ごみの収集日に中身の見えるごみ袋に入れて出してください。', NULL FROM municipalities WHERE name = '大阪市';

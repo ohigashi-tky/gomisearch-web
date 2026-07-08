@@ -3,7 +3,8 @@
 品目名で検索すると自治体ごとのゴミの捨て方が即答されるサービスの Web 版 (PWA) モノレポ。
 
 - `apps/web` — PWA フロントエンド (Vite + React 19 + TypeScript + Tailwind CSS v4 + vite-plugin-pwa)
-- `apps/api` — JSON API (Hono + Cloudflare Workers + D1 + drizzle-orm)。大阪市50品目のシード付き
+- `apps/api` — JSON API (Hono + Cloudflare Workers + D1 + drizzle-orm)。
+  大阪市 + 政令指定都市19市 (計20自治体・各50品目) のシード付き
 - `packages/schema` — かな正規化 `normalizeForSearch` と zod スキーマ (サーバ/Web で共用)
 - `docs/api-spec.md` — API 仕様。**API を変更する場合は、先にこのファイルを更新してから実装を変更する**
 
